@@ -13,13 +13,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is a simple HTTP server for purely static content. You can use it
-to serve the content of a ftp server via http for example. It is also
+to serve the content of a FTP server via HTTP for example. It is also
 nice to export some files the quick way by starting a http server in a
 few seconds, without editing some config file first.
 
 %description -l pl
 webfs to prosty serwer HTTP do czysto statycznych danych. Mo¿na go
-u¿ywaæ np. do udostêpniania zawarto¶ci serwera ftp po http. Daje
+u¿ywaæ np. do udostêpniania zawarto¶ci serwera FTP po HTTP. Daje
 mo¿liwo¶æ ³atwego i szybkiego udostêpnienia plików poprzez
 uruchomienie serwera w kilka sekund, bez wcze¶niejszego modyfikowania
 ilu¶ plików konfiguracyjnych.
