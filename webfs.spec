@@ -1,12 +1,12 @@
 Summary:	Lightweight HTTP server for static content
 Summary(pl):	Lekki serwer HTTP dla statycznych danych
 Name:		webfs
-Version:	1.19
+Version:	1.20
 Release:	1
 License:	GPL
 Group:		Networking/Daemons
 Source0:	http://bytesex.org/misc/%{name}_%{version}.tar.gz
-# Source0-md5:	f7a86b59c5b37d05141bc6265bc448dd
+# Source0-md5:	90c54905e4312eb45ad38d010a127208
 URL:		http://bytesex.org/webfs.html
 BuildRequires:	openssl-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -37,7 +37,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	bindir=$RPM_BUILD_ROOT%{_bindir} \
-	mandir=$RPM_BUILD_ROOT%{_mandir}/man1
+	mandir=$RPM_BUILD_ROOT%{_mandir}
 
 # to be PLDified
 #install webfsd.conf $RPM_BUILD_ROOT/etc/sysconfig/webfsd
