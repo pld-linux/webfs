@@ -1,12 +1,12 @@
 Summary:	Lightweight HTTP server for static content
 Summary(pl):	Lekki serwer HTTP dla statycznych danych
 Name:		webfs
-Version:	1.20
+Version:	1.21
 Release:	1
 License:	GPL
 Group:		Networking/Daemons
-Source0:	http://bytesex.org/misc/%{name}_%{version}.tar.gz
-# Source0-md5:	90c54905e4312eb45ad38d010a127208
+Source0:	http://dl.bytesex.org/releases/webfs/%{name}-%{version}.tar.gz
+# Source0-md5:	6dc125fe160479404147e7bbfc781dbc
 URL:		http://bytesex.org/webfs.html
 BuildRequires:	openssl-devel >= 0.9.7d
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
