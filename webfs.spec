@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Networking/Daemons
 Source0:	http://bytesex.org/misc/%{name}_%{version}.tar.gz
+# Source0-md5:	f7a86b59c5b37d05141bc6265bc448dd
 URL:		http://bytesex.org/webfs.html
 BuildRequires:	openssl-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
