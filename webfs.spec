@@ -14,7 +14,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This is a simple HTTP server for purely static content. You can use it
 to serve the content of a FTP server via HTTP for example. It is also
-nice to export some files the quick way by starting a http server in a
+nice to export some files the quick way by starting a HTTP server in a
 few seconds, without editing some config file first.
 
 %description -l pl
