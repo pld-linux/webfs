@@ -8,7 +8,7 @@ Group:		Networking/Daemons
 Source0:	http://bytesex.org/misc/%{name}_%{version}.tar.gz
 # Source0-md5:	90c54905e4312eb45ad38d010a127208
 URL:		http://bytesex.org/webfs.html
-BuildRequires:	openssl-devel
+BuildRequires:	openssl-devel >= 0.9.7d
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
