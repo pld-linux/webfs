@@ -21,7 +21,7 @@ few seconds, without editing some config file first.
 webfs to prosty serwer HTTP do czysto statycznych danych. Mo¿na go
 u¿ywaæ np. do udostêpniania zawarto¶ci serwera ftp po http. Daje
 mo¿liwo¶æ ³atwego i szybkiego udostêpnienia plików poprzez
-uruchomienie serwera w kilka sekund, bez wcze¶niejszego modyfikowania 
+uruchomienie serwera w kilka sekund, bez wcze¶niejszego modyfikowania
 ilu¶ plików konfiguracyjnych.
 
 %prep
