@@ -1,5 +1,5 @@
 Summary:	Lightweight HTTP server for static content
-Summary(pl.UTF-8):   Lekki serwer HTTP dla statycznych danych
+Summary(pl.UTF-8):	Lekki serwer HTTP dla statycznych danych
 Name:		webfs
 Version:	1.21
 Release:	1
