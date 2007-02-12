@@ -1,5 +1,5 @@
 Summary:	Lightweight HTTP server for static content
-Summary(pl):	Lekki serwer HTTP dla statycznych danych
+Summary(pl.UTF-8):   Lekki serwer HTTP dla statycznych danych
 Name:		webfs
 Version:	1.21
 Release:	1
@@ -17,12 +17,12 @@ to serve the content of a FTP server via HTTP for example. It is also
 nice to export some files the quick way by starting a HTTP server in a
 few seconds, without editing some config file first.
 
-%description -l pl
-webfs to prosty serwer HTTP do czysto statycznych danych. Mo¿na go
-u¿ywaæ np. do udostêpniania zawarto¶ci serwera FTP po HTTP. Daje
-mo¿liwo¶æ ³atwego i szybkiego udostêpnienia plików poprzez
-uruchomienie serwera w kilka sekund, bez wcze¶niejszego modyfikowania
-ilu¶ plików konfiguracyjnych.
+%description -l pl.UTF-8
+webfs to prosty serwer HTTP do czysto statycznych danych. MoÅ¼na go
+uÅ¼ywaÄ‡ np. do udostÄ™pniania zawartoÅ›ci serwera FTP po HTTP. Daje
+moÅ¼liwoÅ›Ä‡ Å‚atwego i szybkiego udostÄ™pnienia plikÃ³w poprzez
+uruchomienie serwera w kilka sekund, bez wczeÅ›niejszego modyfikowania
+iluÅ› plikÃ³w konfiguracyjnych.
 
 %prep
 %setup -q
