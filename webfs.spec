@@ -4,7 +4,7 @@ Name:		webfs
 Version:	1.21
 Release:	1
 License:	GPL
-Group:		Networking/Daemons
+Group:		Networking/Daemons/HTTP
 Source0:	http://dl.bytesex.org/releases/webfs/%{name}-%{version}.tar.gz
 # Source0-md5:	6dc125fe160479404147e7bbfc781dbc
 URL:		http://bytesex.org/webfs.html
