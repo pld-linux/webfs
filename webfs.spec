@@ -41,7 +41,7 @@ rm -rf $RPM_BUILD_ROOT
 
 # to be PLDified
 #install webfsd.conf $RPM_BUILD_ROOT/etc/sysconfig/webfsd
-#install webfsd.redhat $RPM_BUILD_ROOT%{_initrddir}
+#install webfsd.redhat $RPM_BUILD_ROOT/etc/rc.d/init.d
 
 %clean
 rm -rf $RPM_BUILD_ROOT
